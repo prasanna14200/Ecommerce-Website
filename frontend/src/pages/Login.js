@@ -6,6 +6,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import SummaryApi from '../common';
 import { toast } from 'react-toastify';
 import Context from '../context';
+
+const loginIcons = "https://res.cloudinary.com/dtgdtj98f/image/upload/v1777812880/signin_nrt6s3.gif"
 const Login = () => {
     const [showPassword,setShowPassword] = useState(false)
     const [data,setData] = useState({
