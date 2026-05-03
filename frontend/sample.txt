@@ -1,0 +1,8 @@
+npx create-react-app frontend
+tailwind page
+install react-router-dom
+setting app in the index.js using react-router-dom
+
+
+rafce--- react -dom
+reacticons

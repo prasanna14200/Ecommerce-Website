@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+.env
+
+# your huge asset folder (IMPORTANT)
+frontend/src/assest/
+
+# images (optional safety)
+*.jpg
+*.jpeg
+*.png
+*.webp
