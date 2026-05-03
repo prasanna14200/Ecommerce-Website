@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from 'react'
-import image1 from '../assets/banner/img1.webp'
-import image2 from '../assets/banner/img2.webp'
-import image3 from '../assets/banner/img3.jpg'
-import image4 from '../assets/banner/img4.jpg'
-import image5 from '../assets/banner/img5.webp'
-
-
-import image1Mobile from '../assets/banner/img1_mobile.jpg'
-import image2Mobile from '../assets/banner/img2_mobile.webp'
-import image3Mobile from '../assets/banner/img3_mobile.jpg'
-import image4Mobile from '../assets/banner/img4_mobile.jpg'
-import image5Mobile from '../assets/banner/img5_mobile.png'
-
 import { FaAngleRight } from "react-icons/fa6";
 import { FaAngleLeft } from "react-icons/fa6";
+
+
+const image1 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813343/img1_yebm1o.webp"
+const image2 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813421/img2_lza04z.webp"
+const image3 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813475/img3_q0olqu.jpg"
+const image4 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813486/img4_zabfsm.jpg"
+const image5 https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813582/img5_xultcv.webp
+
+
+const image1Mobile ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813594/img1_mobile_utckzi.jpg"
+const image2Mobile="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813606/img2_mobile_l0uurx.webp"
+const image3Mobile ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813619/img3_mobile_gqhe3z.jpg"
+const image4Mobile ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813623/img4_mobile_hoo38q.jpg"
+const image5Mobile ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813633/img5_mobile_vo68zk.png"
 
 
 const BannerProduct = () => {
