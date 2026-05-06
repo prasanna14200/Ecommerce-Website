@@ -7,7 +7,7 @@ const image1 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813343/img
 const image2 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813421/img2_lza04z.webp"
 const image3 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813475/img3_q0olqu.jpg"
 const image4 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813486/img4_zabfsm.jpg"
-const image5 https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813582/img5_xultcv.webp
+const image5 ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813582/img5_xultcv.webp"
 
 
 const image1Mobile ="https://res.cloudinary.com/dtgdtj98f/image/upload/v1777813594/img1_mobile_utckzi.jpg"
