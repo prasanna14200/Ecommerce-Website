@@ -23,7 +23,7 @@ app.use('/api', router)
 const buildPath = path.join(__dirname, '../frontend/build')
 if (process.env.NODE_ENV === 'production' && process.env.FRONTEND_URL) {
     app.use(express.static(buildPath))
-    app.get('*', (req, res) => {
+    app.get(/^(?!\/api).*/, (req, res) => {
         if (req.path.startsWith('/api')) {
             return res.status(404).send('API route not found')
         }
